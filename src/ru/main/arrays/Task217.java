@@ -3,7 +3,7 @@ package ru.main.arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class task217 {
+public class Task217 {
     //https://leetcode.com/problems/contains-duplicate/
 
     public boolean containsDuplicate(int[] nums) {
