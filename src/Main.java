@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeM763_PartitionLabels c = new LeetCodeM763_PartitionLabels();
-        System.out.println(c.partitionLabels("eccbbbbdec"));
+        LeetCodeE344_ReverseString c = new LeetCodeE344_ReverseString();
+        char[] s = "hello".toCharArray();
+        c.reverseString(s);
+        System.out.println(s);
     }
 }
 
