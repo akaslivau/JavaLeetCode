@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE344_ReverseString c = new LeetCodeE344_ReverseString();
-        char[] s = "hello".toCharArray();
-        c.reverseString(s);
-        System.out.println(s);
+        LeetCodeE26_RemoveDuplicates c = new LeetCodeE26_RemoveDuplicates();
+        int[] nums = {1, 1, 1,1,2,2,2,2,3};
+        int res = c.removeDuplicates(nums);
+        System.out.println(res);
     }
 }
 
