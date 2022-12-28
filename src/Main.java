@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE26_RemoveDuplicates c = new LeetCodeE26_RemoveDuplicates();
-        int[] nums = {1, 1, 1,1,2,2,2,2,3};
-        int res = c.removeDuplicates(nums);
+        LeetCodeE27_RemoveElement c = new LeetCodeE27_RemoveElement();
+        int[] nums = {1, 1};
+        int res = c.removeElement(nums, 1);
         System.out.println(res);
     }
 }
