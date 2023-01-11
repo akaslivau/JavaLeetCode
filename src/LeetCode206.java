@@ -1,6 +1,4 @@
-package ru.main.linkedlists;
-
-public class Task206 {
+public class LeetCode206 {
     public ListNode reverseList(ListNode head) {
         ListNode cur = head;
         ListNode prev = null;
