@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeH42_Trap c = new LeetCodeH42_Trap();
+        LeetCodeE1572_MatrixDiagonalSum c = new LeetCodeE1572_MatrixDiagonalSum();
 
-        int res = c.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1});
+        int res = c.diagonalSum(new int[][]{
+                new int[]{1, 2, 3},
+                new int[]{4, 5, 6},
+                new int[]{7, 8, 9},
+        });
 
         System.out.println(res);
     }
