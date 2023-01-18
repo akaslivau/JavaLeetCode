@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeM24_SwapNodes c = new LeetCodeM24_SwapNodes();
+        LeetCodeH42_Trap c = new LeetCodeH42_Trap();
 
-        ListNode a = ListNode.fromArray(new int[]{1, 2, 3, 4, 5});
-        ListNode res = c.swapPairs(a);
+        int res = c.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1});
+
         System.out.println(res);
     }
 }
