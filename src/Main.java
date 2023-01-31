@@ -1,12 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeM2352_MatrixRowColumnEquals c = new LeetCodeM2352_MatrixRowColumnEquals();
-        int res = c.equalPairs(new int[][]{
-                new int[]{11, 1},
-                new int[]{1, 11}
+        LeetCodeM1743_AdjacentPairs c = new LeetCodeM1743_AdjacentPairs();
+        int[] res = c.restoreArray(new int[][]{
+
+                new int[]{-3,-9},
+                new int[]{-5,3},
+                new int[]{2,-9},
+                new int[]{6,-3},
+                new int[]{6,1},
+                new int[]{5,3},
+                new int[]{8,5},
+                new int[]{-5,1},
+                new int[]{7,2}
         });
-        System.out.println(res);
+        PrintUtils.printArray(res);
     }
 }
 
+//7   2   -9  -3  6   1   -5  3   5   8
 
