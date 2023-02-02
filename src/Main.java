@@ -1,7 +1,9 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        LeetCodeM791_CustomSortString c = new LeetCodeM791_CustomSortString();
-        String res = c.customSortString("cba", "abcccde");
+        LeetCodeE1732_LargestAttitude c = new LeetCodeE1732_LargestAttitude();
+        int res = c.largestAltitude(new int[]{52, -91, 72});
         System.out.println(res);
     }
 }

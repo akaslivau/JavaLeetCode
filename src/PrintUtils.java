@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class PrintUtils {
@@ -13,5 +14,11 @@ public class PrintUtils {
 
     public static void printArray(int[] res) {
         System.out.println(Arrays.stream(res).mapToObj(String::valueOf).collect(Collectors.joining(" ")));
+    }
+
+    public static void printList(List<Integer> res) {
+        for (Integer item : res) {
+            System.out.println(item);
+        }
     }
 }
