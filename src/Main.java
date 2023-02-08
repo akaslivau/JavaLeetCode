@@ -2,8 +2,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE345_ReverseVowels c = new LeetCodeE345_ReverseVowels();
-        String res = c.reverseVowels("hello");
+        LeetCodeE1945_SumDigitsStringAfterConvert c = new LeetCodeE1945_SumDigitsStringAfterConvert();
+        int res = c.getLucky("leetcode", 2);
         System.out.println(res);
     }
 }
