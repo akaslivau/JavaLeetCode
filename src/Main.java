@@ -2,8 +2,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE1945_SumDigitsStringAfterConvert c = new LeetCodeE1945_SumDigitsStringAfterConvert();
-        int res = c.getLucky("leetcode", 2);
+        LeetCodeE2490_CircularSentence c = new LeetCodeE2490_CircularSentence();
+        boolean res = c.isCircularSentence("leetcode exercises sound delightful");
         System.out.println(res);
     }
 }
