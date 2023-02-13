@@ -1,3 +1,5 @@
+import java.util.Optional;
+
 public class TreeNode {
     public int val;
     public TreeNode left;
@@ -39,4 +41,10 @@ public class TreeNode {
         }
     }
 
+    @Override
+    public String toString() {
+        return val
+                + "   (" + Optional.ofNullable(left).map(x -> x.val).map(String::valueOf).orElse("_") + ")"
+                + "   (" + Optional.ofNullable(right).map(x -> x.val).map(String::valueOf).orElse("_") + ")";
+    }
 }
