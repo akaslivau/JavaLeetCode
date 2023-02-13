@@ -1,5 +1,3 @@
-package ru.main.arrays;
-
 import java.util.HashSet;
 import java.util.Set;
 

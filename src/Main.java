@@ -1,12 +1,12 @@
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE2490_CircularSentence c = new LeetCodeE2490_CircularSentence();
-        boolean res = c.isCircularSentence("leetcode exercises sound delightful");
+        LeetCodeM648_ReplaceWords c = new LeetCodeM648_ReplaceWords();
+        String res = c.replaceWords(Arrays.asList("a", "aa", "aaa", "aaaa"), "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa");
         System.out.println(res);
     }
 }
 
-//7   2   -9  -3  6   1   -5  3   5   8
 

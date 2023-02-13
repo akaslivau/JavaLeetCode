@@ -1,5 +1,3 @@
-import ru.main.trees.TreeNode;
-
 /***
  * https://leetcode.com/problems/same-tree/
  */

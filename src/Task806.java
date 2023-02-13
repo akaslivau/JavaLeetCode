@@ -1,5 +1,3 @@
-package ru.main.strings;
-
 ///https://leetcode.com/problems/number-of-lines-to-write-string/
 
 public class Task806 {
