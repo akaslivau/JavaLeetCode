@@ -6,17 +6,17 @@ public class PrintUtils {
     private PrintUtils() {
     }
 
-    public static void printMatrix(int[][] m) {
+    public static void print(int[][] m) {
         for (int[] ints : m) {
             System.out.println(Arrays.toString(ints));
         }
     }
 
-    public static void printArray(int[] res) {
+    public static void print(int[] res) {
         System.out.println(Arrays.stream(res).mapToObj(String::valueOf).collect(Collectors.joining(" ")));
     }
 
-    public static void printList(List<Integer> res) {
+    public static void print(List<Integer> res) {
         for (Integer item : res) {
             System.out.println(item);
         }

@@ -1,10 +1,8 @@
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE94_TreeInorderTraversal c = new LeetCodeE94_TreeInorderTraversal();
-        List<Integer> res = c.inorderTraversal(TreeNode.valueOf(new Integer[]{1, 2,3,4,5,6,7,8,9}));
-        PrintUtils.printList(res);
+        LeetCodeE350_IntersectionofTwoArraysTwo c = new LeetCodeE350_IntersectionofTwoArraysTwo();
+        int[] res = c.intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2});
+        PrintUtils.print(res);
     }
 }
 
