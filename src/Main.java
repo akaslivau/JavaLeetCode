@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        LeetCodeE350_IntersectionofTwoArraysTwo c = new LeetCodeE350_IntersectionofTwoArraysTwo();
-        int[] res = c.intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2});
+        LeetCodeE168_ExcelSheetColumnToTitle c = new LeetCodeE168_ExcelSheetColumnToTitle();
+        String res = c.convertToTitle(701);
         PrintUtils.print(res);
     }
 }

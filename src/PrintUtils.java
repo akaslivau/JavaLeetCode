@@ -21,4 +21,8 @@ public class PrintUtils {
             System.out.println(item);
         }
     }
+
+    public static void print(Object res) {
+        System.out.println(res);
+    }
 }
