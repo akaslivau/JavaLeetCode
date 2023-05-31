@@ -9,10 +9,10 @@ public class Main {
         PrintUtils.print(c.inorderTraversal(treeNode));
 
         System.out.println("Preorder");
-        PrintUtils.print(c.preorderTraversal(treeNode));
+        PrintUtils.print(c.preorderStackTraversal(treeNode));
 
         System.out.println("Postorder");
-        PrintUtils.print(c.postorderTraversal(treeNode));
+        PrintUtils.print(c.postorderStackTraversal(treeNode));
     }
 }
 
