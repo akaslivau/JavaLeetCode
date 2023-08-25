@@ -5,15 +5,15 @@ import java.io.IOException;
 public class PatternObserver {
 
   public static void main(String[] args) throws IOException {
-    NewsAgency observable = new NewsAgency();
+    Publisher publisher = new Publisher();
 
-    NewsChannel oneTv = new NewsChannel("oneTv");
-    NewsChannel ntv = new NewsChannel("ntv");
+    SubscriberImpl first = new SubscriberImpl("oneTv");
+    SubscriberImpl second = new SubscriberImpl("ntv");
 
-    observable.addObserver(oneTv);
-    observable.addObserver(ntv);
+    publisher.subscribe(first);
+    publisher.subscribe(second);
 
-    observable.setNews("Cat's don't like dogs");
+    publisher.doSomething("Cat's don't like dogs");
 
   }
 
